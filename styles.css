@@ -95,3 +95,8 @@ h4, h5 {
     box-shadow: 0px 10px 30px 20px #000000a2;
     margin: 0 25px;
 }
+
+#winner {
+    margin-top: 40px;
+    text-align: center;
+}
