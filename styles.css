@@ -1,0 +1,35 @@
+:root{
+    background-color: #242424;
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    height: 40rem;
+    width: 50rem;
+    margin: auto;
+    background-color: #303030;
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 14rem;
+    height: 10rem;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+#getInfo {
+    margin-top: 20px;
+    width: 14rem;
+    height: 30px;
+    background-color: #242424;
+    color:#fff;
+    border: #202020 solid 5px;
+}
