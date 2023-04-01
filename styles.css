@@ -1,6 +1,8 @@
 :root{
     background-color: #242424;
     color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 h1 {
@@ -9,9 +11,15 @@ h1 {
 
 body {
     height: 40rem;
-    width: 50rem;
-    margin: auto;
+    width: 60rem;
+    margin: 10rem auto;
     background-color: #303030;
+    border-radius: 100rem;
+    box-shadow: 0px 0px 10px 20px #101010;
+}
+
+body:hover {
+    box-shadow: 0px 0px 10px 20px #201e1e;
 }
 
 .userInfo {
@@ -61,7 +69,7 @@ input:focus {
     width: 10rem;
     font-size: 20px;
     margin: 0 2rem;
-    border: #191919 solid 6px;
+    border: #191919 solid 3px;
     padding: 0;
     background-color: #242424;
     color: #fff;
